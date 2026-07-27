@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Build
+dist/
+build/
+*.egg-info/
+.vite/
+
+# Env & secrets
+.env
+.env.local
+.env.*.local
+*.pem
+
+# Database
+*.db
+*.sqlite3
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+.Netlify/
+.netlify/
+
+# Coverage / cache
+.coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
